@@ -1,0 +1,313 @@
+Sample_ID	Disease_Behavior
+1629.SubjectIBD429	Stricturing (B2)
+1629.SubjectIBD428	Stricturing (B2)
+1629.SubjectIBD050	Stricturing (B2)
+1629.SubjectIBD051	Inflammatory (B1)
+1629.SubjectIBD458	Inflammatory (B1)
+1629.SubjectIBD490	Inflammatory (B1)
+1629.SubjectIBD491	Inflammatory (B1)
+1629.SubjectIBD495	HC
+1629.SubjectIBD496	HC
+1629.SubjectIBD497	HC
+1629.SubjectIBD498	HC
+1629.SubjectIBD499	HC
+1629.SubjectIBD552	Inflammatory (B1)
+1629.SubjectIBD555	Inflammatory (B1)
+1629.SubjectIBD256	Stricturing (B2)
+1629.SubjectIBD254	Inflammatory (B1)
+1629.SubjectIBD255	Inflammatory (B1)
+1629.SubjectIBD252	Inflammatory (B1)
+1629.SubjectIBD253	Inflammatory (B1)
+1629.SubjectIBD250	Inflammatory (B1)
+1629.SubjectIBD251	Inflammatory (B1)
+1629.SubjectIBD397	Inflammatory (B1)
+1629.SubjectIBD395	Inflammatory (B1)
+1629.SubjectIBD394	Inflammatory (B1)
+1629.SubjectIBD393	Inflammatory (B1)
+1629.SubjectIBD392	Stricturing (B2)
+1629.SubjectIBD258	Stricturing (B2)
+1629.SubjectIBD079	Inflammatory (B1)
+1629.SubjectIBD083	Inflammatory (B1)
+1629.SubjectIBD082	Inflammatory (B1)
+1629.SubjectIBD081	Inflammatory (B1)
+1629.SubjectIBD080	Inflammatory (B1)
+1629.SubjectIBD084	Inflammatory (B1)
+1629.SubjectIBD102	Inflammatory (B1)
+1629.SubjectIBD103	Inflammatory (B1)
+1629.SubjectIBD106	Stricturing (B2)
+1629.SubjectIBD107	Stricturing (B2)
+1629.SubjectIBD104	Inflammatory (B1)
+1629.SubjectIBD105	Inflammatory (B1)
+1629.SubjectIBD108	Stricturing (B2)
+1629.SubjectIBD109	Stricturing (B2)
+1629.SubjectIBD176	Stricturing (B2)
+1629.SubjectIBD175	Stricturing (B2)
+1629.SubjectIBD174	Stricturing (B2)
+1629.SubjectIBD173	Stricturing (B2)
+1629.SubjectIBD172	Stricturing (B2)
+1629.SubjectIBD171	Stricturing (B2)
+1629.SubjectIBD341	Penetrating (B3)
+1629.SubjectIBD383	Stricturing (B2)
+1629.SubjectIBD523	HC
+1629.SubjectIBD348	Inflammatory (B1)
+1629.SubjectIBD349	Inflammatory (B1)
+1629.SubjectIBD029	Stricturing (B2)
+1629.SubjectIBD459	Inflammatory (B1)
+1629.SubjectIBD456	Stricturing (B2)
+1629.SubjectIBD457	Inflammatory (B1)
+1629.SubjectIBD515	HC
+1629.SubjectIBD514	HC
+1629.SubjectIBD517	HC
+1629.SubjectIBD516	HC
+1629.SubjectIBD511	HC
+1629.SubjectIBD510	HC
+1629.SubjectIBD513	HC
+1629.SubjectIBD512	HC
+1629.SubjectIBD519	HC
+1629.SubjectIBD518	HC
+1629.SubjectIBD028	Stricturing (B2)
+1629.SubjectIBD339	Penetrating (B3)
+1629.SubjectIBD334	Penetrating (B3)
+1629.SubjectIBD331	Penetrating (B3)
+1629.SubjectIBD330	Penetrating (B3)
+1629.SubjectIBD333	Penetrating (B3)
+1629.SubjectIBD332	Penetrating (B3)
+1629.SubjectIBD209	Penetrating (B3)
+1629.SubjectIBD208	Penetrating (B3)
+1629.SubjectIBD205	Penetrating (B3)
+1629.SubjectIBD204	Penetrating (B3)
+1629.SubjectIBD207	Penetrating (B3)
+1629.SubjectIBD206	Penetrating (B3)
+1629.SubjectIBD023	Stricturing (B2)
+1629.SubjectIBD025	Stricturing (B2)
+1629.SubjectIBD024	Stricturing (B2)
+1629.SubjectIBD146	Stricturing (B2)
+1629.SubjectIBD144	Stricturing (B2)
+1629.SubjectIBD145	Stricturing (B2)
+1629.SubjectIBD142	Stricturing (B2)
+1629.SubjectIBD143	Stricturing (B2)
+1629.SubjectIBD140	Stricturing (B2)
+1629.SubjectIBD141	Stricturing (B2)
+1629.SubjectIBD550	Inflammatory (B1)
+1629.SubjectIBD487	HC
+1629.SubjectIBD486	HC
+1629.SubjectIBD485	HC
+1629.SubjectIBD484	HC
+1629.SubjectIBD483	HC
+1629.SubjectIBD482	HC
+1629.SubjectIBD481	HC
+1629.SubjectIBD257	Stricturing (B2)
+1629.SubjectIBD489	Inflammatory (B1)
+1629.SubjectIBD488	HC
+1629.SubjectIBD245	Stricturing (B2)
+1629.SubjectIBD244	Stricturing (B2)
+1629.SubjectIBD247	Stricturing (B2)
+1629.SubjectIBD246	Stricturing (B2)
+1629.SubjectIBD243	Stricturing (B2)
+1629.SubjectIBD242	Stricturing (B2)
+1629.SubjectIBD248	Inflammatory (B1)
+1629.SubjectIBD399	Inflammatory (B1)
+1629.SubjectIBD398	Inflammatory (B1)
+1629.SubjectIBD522	HC
+1629.SubjectIBD344	Inflammatory (B1)
+1629.SubjectIBD345	Inflammatory (B1)
+1629.SubjectIBD346	Inflammatory (B1)
+1629.SubjectIBD347	Inflammatory (B1)
+1629.SubjectIBD340	Penetrating (B3)
+1629.SubjectIBD342	Penetrating (B3)
+1629.SubjectIBD343	Inflammatory (B1)
+1629.SubjectIBD065	Stricturing (B2)
+1629.SubjectIBD064	Stricturing (B2)
+1629.SubjectIBD063	Stricturing (B2)
+1629.SubjectIBD062	Stricturing (B2)
+1629.SubjectIBD391	Stricturing (B2)
+1629.SubjectIBD551	Inflammatory (B1)
+1629.SubjectIBD259	Stricturing (B2)
+1629.SubjectIBD027	Stricturing (B2)
+1629.SubjectIBD026	Stricturing (B2)
+1629.SubjectIBD111	Stricturing (B2)
+1629.SubjectIBD110	Stricturing (B2)
+1629.SubjectIBD113	Stricturing (B2)
+1629.SubjectIBD112	Stricturing (B2)
+1629.SubjectIBD115	Stricturing (B2)
+1629.SubjectIBD114	Stricturing (B2)
+1629.SubjectIBD117	Stricturing (B2)
+1629.SubjectIBD116	Stricturing (B2)
+1629.SubjectIBD119	Inflammatory (B1)
+1629.SubjectIBD118	Stricturing (B2)
+1629.SubjectIBD030	Stricturing (B2)
+1629.SubjectIBD188	Penetrating (B3)
+1629.SubjectIBD189	Penetrating (B3)
+1629.SubjectIBD187	Penetrating (B3)
+1629.SubjectIBD500	HC
+1629.SubjectIBD501	HC
+1629.SubjectIBD326	Stricturing (B2)
+1629.SubjectIBD327	Stricturing (B2)
+1629.SubjectIBD508	HC
+1629.SubjectIBD509	HC
+1629.SubjectIBD442	Inflammatory (B1)
+1629.SubjectIBD441	Inflammatory (B1)
+1629.SubjectIBD435	Inflammatory (B1)
+1629.SubjectIBD520	HC
+1629.SubjectIBD521	HC
+1629.SubjectIBD524	HC
+1629.SubjectIBD525	HC
+1629.SubjectIBD526	HC
+1629.SubjectIBD527	HC
+1629.SubjectIBD539	HC
+1629.SubjectIBD538	HC
+1629.SubjectIBD234	Inflammatory (B1)
+1629.SubjectIBD233	Stricturing (B2)
+1629.SubjectIBD531	Stricturing (B2)
+1629.SubjectIBD396	Inflammatory (B1)
+1629.SubjectIBD328	Stricturing (B2)
+1629.SubjectIBD329	Penetrating (B3)
+1629.SubjectIBD304	Inflammatory (B1)
+1629.SubjectIBD305	Inflammatory (B1)
+1629.SubjectIBD306	Inflammatory (B1)
+1629.SubjectIBD307	Inflammatory (B1)
+1629.SubjectIBD308	Inflammatory (B1)
+1629.SubjectIBD309	Inflammatory (B1)
+1629.SubjectIBD390	Stricturing (B2)
+1629.SubjectIBD472	Inflammatory (B1)
+1629.SubjectIBD473	Inflammatory (B1)
+1629.SubjectIBD470	Inflammatory (B1)
+1629.SubjectIBD471	Inflammatory (B1)
+1629.SubjectIBD474	Inflammatory (B1)
+1629.SubjectIBD475	Inflammatory (B1)
+1629.SubjectIBD312	Penetrating (B3)
+1629.SubjectIBD357	Inflammatory (B1)
+1629.SubjectIBD388	Stricturing (B2)
+1629.SubjectIBD389	Stricturing (B2)
+1629.SubjectIBD124	Inflammatory (B1)
+1629.SubjectIBD125	Inflammatory (B1)
+1629.SubjectIBD120	Inflammatory (B1)
+1629.SubjectIBD121	Inflammatory (B1)
+1629.SubjectIBD122	Inflammatory (B1)
+1629.SubjectIBD123	Inflammatory (B1)
+1629.SubjectIBD052	Inflammatory (B1)
+1629.SubjectIBD053	Inflammatory (B1)
+1629.SubjectIBD191	Penetrating (B3)
+1629.SubjectIBD190	Penetrating (B3)
+1629.SubjectIBD031	Inflammatory (B1)
+1629.SubjectIBD440	Inflammatory (B1)
+1629.SubjectIBD313	Penetrating (B3)
+1629.SubjectIBD436	Inflammatory (B1)
+1629.SubjectIBD437	Inflammatory (B1)
+1629.SubjectIBD430	Stricturing (B2)
+1629.SubjectIBD537	HC
+1629.SubjectIBD536	HC
+1629.SubjectIBD535	HC
+1629.SubjectIBD534	HC
+1629.SubjectIBD533	HC
+1629.SubjectIBD532	HC
+1629.SubjectIBD438	Inflammatory (B1)
+1629.SubjectIBD439	Inflammatory (B1)
+1629.SubjectIBD528	HC
+1629.SubjectIBD549	Inflammatory (B1)
+1629.SubjectIBD542	HC
+1629.SubjectIBD543	HC
+1629.SubjectIBD540	HC
+1629.SubjectIBD541	HC
+1629.SubjectIBD544	Penetrating (B3)
+1629.SubjectIBD380	Inflammatory (B1)
+1629.SubjectIBD381	Inflammatory (B1)
+1629.SubjectIBD384	Stricturing (B2)
+1629.SubjectIBD385	Stricturing (B2)
+1629.SubjectIBD386	Stricturing (B2)
+1629.SubjectIBD387	Stricturing (B2)
+1629.SubjectIBD003	Inflammatory (B1)
+1629.SubjectIBD002	Inflammatory (B1)
+1629.SubjectIBD001	Inflammatory (B1)
+1629.SubjectIBD005	Inflammatory (B1)
+1629.SubjectIBD004	Inflammatory (B1)
+1629.SubjectIBD317	Stricturing (B2)
+1629.SubjectIBD316	Penetrating (B3)
+1629.SubjectIBD315	Penetrating (B3)
+1629.SubjectIBD314	Penetrating (B3)
+1629.SubjectIBD311	Penetrating (B3)
+1629.SubjectIBD310	Penetrating (B3)
+1629.SubjectIBD382	Inflammatory (B1)
+1629.SubjectIBD161	Stricturing (B2)
+1629.SubjectIBD162	Stricturing (B2)
+1629.SubjectIBD163	Stricturing (B2)
+1629.SubjectIBD164	Stricturing (B2)
+1629.SubjectIBD165	Stricturing (B2)
+1629.SubjectIBD166	Stricturing (B2)
+1629.SubjectIBD167	Stricturing (B2)
+1629.SubjectIBD469	Inflammatory (B1)
+1629.SubjectIBD506	HC
+1629.SubjectIBD507	HC
+1629.SubjectIBD504	HC
+1629.SubjectIBD505	HC
+1629.SubjectIBD502	HC
+1629.SubjectIBD503	HC
+1629.SubjectIBD268	Inflammatory (B1)
+1629.SubjectIBD267	Inflammatory (B1)
+1629.SubjectIBD266	Inflammatory (B1)
+1629.SubjectIBD265	Inflammatory (B1)
+1629.SubjectIBD264	Inflammatory (B1)
+1629.SubjectIBD263	Inflammatory (B1)
+1629.SubjectIBD262	Inflammatory (B1)
+1629.SubjectIBD261	Penetrating (B3)
+1629.SubjectIBD260	Stricturing (B2)
+1629.SubjectIBD283	Inflammatory (B1)
+1629.SubjectIBD282	Inflammatory (B1)
+1629.SubjectIBD284	Inflammatory (B1)
+1629.SubjectIBD324	Stricturing (B2)
+1629.SubjectIBD563	Stricturing (B2)
+1629.SubjectIBD556	Inflammatory (B1)
+1629.SubjectIBD676	Stricturing (B2)
+1629.SubjectIBD670	Stricturing (B2)
+1629.SubjectIBD656	Stricturing (B2)
+1629.SubjectIBD657	HC
+1629.SubjectIBD645	Inflammatory (B1)
+1629.SubjectIBD712	Inflammatory (B1)
+1629.SubjectIBD644	Inflammatory (B1)
+1629.SubjectIBD647	Penetrating (B3)
+1629.SubjectIBD687	Inflammatory (B1)
+1629.SubjectIBD680	Stricturing (B2)
+1629.SubjectIBD719	Inflammatory (B1)
+1629.SubjectIBD631	Inflammatory (B1)
+1629.SubjectIBD639	HC
+1629.SubjectIBD723	HC
+1629.SubjectIBD705	Inflammatory (B1)
+1629.SubjectIBD701	Stricturing (B2)
+1629.SubjectIBD702	Inflammatory (B1)
+1629.SubjectIBD559	Stricturing (B2)
+1629.SubjectIBD725	Stricturing (B2)
+1629.SubjectIBD567	Penetrating (B3)
+1629.SubjectIBD560	Inflammatory (B1)
+1629.SubjectIBD718	HC
+1629.SubjectIBD662	Inflammatory (B1)
+1629.SubjectIBD661	Stricturing (B2)
+1629.SubjectIBD626	HC
+1629.SubjectIBD659	HC
+1629.SubjectIBD582	Inflammatory (B1)
+1629.SubjectIBD581	Inflammatory (B1)
+1629.SubjectIBD576	Inflammatory (B1)
+1629.SubjectIBD575	Penetrating (B3)
+1629.SubjectIBD574	Stricturing (B2)
+1629.SubjectIBD613	Inflammatory (B1)
+1629.SubjectIBD611	Stricturing (B2)
+1629.SubjectIBD578	Inflammatory (B1)
+1629.SubjectIBD640	HC
+1629.SubjectIBD699	Stricturing (B2)
+1629.SubjectIBD599	HC
+1629.SubjectIBD594	Stricturing (B2)
+1629.SubjectIBD591	Inflammatory (B1)
+1629.SubjectIBD325	Stricturing (B2)
+1629.SubjectIBD323	Stricturing (B2)
+1629.SubjectIBD218	Stricturing (B2)
+1629.SubjectIBD032	Inflammatory (B1)
+1629.SubjectIBD033	Inflammatory (B1)
+1629.SubjectIBD139	Stricturing (B2)
+1629.SubjectIBD138	Stricturing (B2)
+1629.SubjectIBD034	Inflammatory (B1)
+1629.SubjectIBD047	Stricturing (B2)
+1629.SubjectIBD046	Stricturing (B2)
+1629.SubjectIBD045	Stricturing (B2)
+1629.SubjectIBD044	Stricturing (B2)
+1629.SubjectIBD043	Stricturing (B2)
+1629.SubjectIBD049	Stricturing (B2)
+1629.SubjectIBD048	Stricturing (B2)
