@@ -20,7 +20,7 @@ function PrincipalTree = script_structure_learning(Feature_Table, Table_clinic, 
 %       -- lambda
 %            Regularization parameter for inverse graph embedding
 %       -- col_label
-%            The Column of the clinical information used for feature
+%            The column of the clinical information used for feature
 %            selection
 %--------------------------------------------------------------------------
 % Output
