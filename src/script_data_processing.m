@@ -12,10 +12,7 @@ function [Table_otu, Table_clinic] = script_data_processing(filen_otu, file_meta
 % 
 %   params        : Parameters
 %       -- min_count
-%            Number of observation (sequence) count to apply as the minimum
-%            total observation count of a sample for that sample to be retained.
-%            If you want to include samples with sequencing depth higher than
-%            or equal to 10,000, you specify 10,000 [default: 10,000]
+%            The minimum sequence counts used as a threshold to retain a microbiome sample [default: 10,000]
 %       -- pseudo_count
 %            A small number added to the relative abundance before 10-base log
 %            transformation [default: 10^-6]
@@ -24,7 +21,7 @@ function [Table_otu, Table_clinic] = script_data_processing(filen_otu, file_meta
 %            or not. If the last column of the table is the taxonomy, you
 %            specify 1 [default: 0]
 %       -- col_label
-%            The Column of the clinical information used for feature
+%            The column of the clinical information used for feature
 %            selection
 %       -- mapping
 %            Mapping from class categories to numerical labels
