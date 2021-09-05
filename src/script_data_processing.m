@@ -17,7 +17,7 @@ function [Table_otu, Table_clinic] = script_data_processing(filen_otu, file_meta
 %            A small number added to the relative abundance before 10-base log
 %            transformation [default: 10^-6]
 %       -- last_tax
-%            Flag of whether the last column of the OTU table is taxonomy
+%            Flag indicating whether the last column of the OTU table is taxonomy
 %            or not. If the last column of the table is the taxonomy, you
 %            specify 1 [default: 0]
 %       -- col_label
