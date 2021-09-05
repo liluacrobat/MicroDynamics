@@ -22,8 +22,8 @@ function script_visualization(PrincipalTree, annotations, levels, params)
 %            Order used to sort labels
 %       -- post_flag
 %            Flag of post processing [default: 0]
-%              0 : principal tree before post-processing
-%              1 : principal tree after post-processing
+%              0: principal tree before post-processing
+%              1: principal tree after post-processing
 %       -- prog_flag
 %            Plot samples of the extracted progression paths [default: 0]
 %--------------------------------------------------------------------------
