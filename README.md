@@ -1,9 +1,9 @@
 # MicroDynamics
-A pipeline for delineating community dynamics of human microbiome associated with disease progression
+A bioinformatics pipeline for studying microbial community dynamics associated with disease progression
 
 ## Setup
-The setup process for the proposed pipeline requires the following steps:
-### Download the pipeline
+The setup process for the pipeline requires the following steps:
+### Download pipeline
 ```bash
 git clone https://github.com/liluacrobat/MicroDynamics.git
 ```
@@ -13,7 +13,7 @@ The following software is required
 * MATLAB
 
 ## Input
-There are two input files for the MicroDynamics pipeline including an OTU table and a meta file of disease behavior. The following example is a human gut microbiom data set of Crohn's disease. 
+There are two input files for the MicroDynamics pipeline: an OTU table and a meta file of disease behavior. In the following example, a gut microbiom data set of Crohn's disease is used. 
 #### OTU table of 16S rRNA sequences
 ```
 OTU_ID Sample_1 Sample_2 Sample_3
@@ -39,26 +39,23 @@ Load the OTU table and meta data. Exclude samples without enough sequencing dept
 ```
 params       
     -- min_count
-         Number of observation (sequence) count to apply as the minimum
-         total observation count of a sample for that sample to be retained.
-         If you want to include samples with sequencing depth higher than
-         or equal to 10,000, you specify 10,000 [default: 10,000]
+         The minimum sequence counts used as a threshold to retain a microbiome sample [default: 10,000]
     -- pseudo_count
          A small number added to the relative abundance before 10-base log
          transformation [default: 10^-6]
     -- last_tax
-         Flag of whether the last column of the OTU table is taxonomy
+         Flag indicating whether the last column of the OTU table is taxonomy
          or not. If the last column of the table is the taxonomy, you
          specify 1 [default: 0]
     -- col_label
-         The Column of the clinical information used for feature
+         The column of the clinical information used for feature
          selection
     -- mapping
          Mapping from class categories to numerical labels
 ```
 
 ### 2. Identifying disease associated OTUs
-Feature selection within LOGO [1] framework.
+Perform feature selection within the LOGO framework [1].
 ```
 Feature_Table = script_feature_LOGO(Table_otu, Table_clinic, params)
 ```
@@ -87,8 +84,8 @@ params
          Number of folds for cross-validation [default: 10]
 ```
 
-### 3. Random sampling based consensus clustering
-Perform random sampling based consensus clustering to group samples with similar microbial community composition.
+### 3. Random sampling-based consensus clustering
+Perform random sampling-based consensus clustering to group samples with similar microbial community composition.
 ```
 cidx = script_consensus_clustering(Feature_Table, params)
 ```
@@ -100,13 +97,13 @@ params
     -- iters        
          Number of iterations
 ```
-The number of clusters can be estimated based on gap statistics.
+The number of clusters can be estimated based on gap statistic.
 ```
 [cluster_num, eva_Gap] = script_kmeans_gap(Feature_Table)
 ```
 
 ### 4. Embedded structuring learning
-Learn a principal tree using DDRTree [2] method.
+Learn a principal tree using the DDRTree method [2].
 ```
 params    
     -- sigma
@@ -114,10 +111,10 @@ params
     -- lambda
          Regularization parameter for inverse graph embedding
     -- col_label
-         The Column of the clinical information used for feature
+         The column of the clinical information used for feature
          selection
 ```
-The parameters employed by DDRTree can be tuned using elbow method.
+The parameters employed by DDRTree is tuned by using the elbow method.
 ```
 [var_opt, CurveLength, Error_mse] = script_elbow_DDRTree(Feature_Table, params)
 ```
@@ -148,20 +145,20 @@ params
          Order used to sort labels
     -- post_flag
          Flag of post processing [default: 0]
-           0 : principal tree before post-processing
-           1 : principal tree after post-processing
+           0: principal tree before post-processing
+           1: principal tree after post-processing
     -- prog_flag
          Plot samples of the extracted progression paths [default: 0]
 ```
 
 ## Example
-We provide two tab delimited files of a human gut microbiome data set [3] in the example directory: a OTU table file CD_16S_OTU.txt, and a meta data file CD_meta_clinic.txt. 
+We provide two tab-delimited files of a human gut microbiome data set [3] in the example directory: a OTU table file CD_16S_OTU.txt, and a meta data file CD_meta_clinic.txt. 
 
-Due to the storage limitation of GitHub, please download the CD_16S_OTU.tsv file from https://drive.google.com/file/d/1OhjjGS5Kw5G4ImOlzy8G8HluHM1aNjUN/view?usp=sharing and put the file under the 'example/data' directory. 
+Due to the storage limitation of GitHub, please download the CD_16S_OTU.tsv file from https://drive.google.com/file/d/1OhjjGS5Kw5G4ImOlzy8G8HluHM1aNjUN/view?usp=sharing and put the file in the 'example/data' directory. 
 
-Then, we can learn a microbial progression model by running Demo_MicroDynamics.m. The precalculated results are stored in the 'example/precalculated/' directory. 
+We can learn a microbial progression model by running Demo_MicroDynamics.m. The precalculated results are stored in the 'example/precalculated/' directory. 
 
 ## Reference
-[1] Sun, Yijun, Sinisa Todorovic, and Steve Goodison. "Local-learning-based feature selection for high-dimensional data analysis." *IEEE Transactions on Pattern Analysis and Machine Intelligence* 32, no. 9 (2009): 1610-1626.  
-[2] Mao, Qi, Li Wang, Steve Goodison, and Yijun Sun. "Dimensionality reduction via graph structure learning." In *Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*, pp. 765-774. 2015.  
-[3] Halfvarson, Jonas, Colin J. Brislawn, Regina Lamendella, Yoshiki Vázquez-Baeza, William A. Walters, Lisa M. Bramer, Mauro D'amato et al. "Dynamics of the human gut microbiome in inflammatory bowel disease." *Nature Microbiology* 2, no. 5 (2017): 1-7.  
+[1] Yijun Sun, Sinisa Todorovic, and Steve Goodison. "Local-learning-based feature selection for high-dimensional data analysis." *IEEE Transactions on Pattern Analysis and Machine Intelligence*, 32(9), 1610-1626, 2010.  
+[2] Qi Mao, Li Wang, Steve Goodison, and Yijun Sun. "Dimensionality reduction via graph structure learning." In *Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*, pp. 765-774, 2015.  
+[3] Jonas Halfvarson, Colin J. Brislawn, Regina Lamendella, Yoshiki Vázquez-Baeza, William A. Walters, Lisa M. Bramer, Mauro D'amato et al. "Dynamics of the human gut microbiome in inflammatory bowel disease." *Nature Microbiology*, 2(5), 1-7, 2017.  
