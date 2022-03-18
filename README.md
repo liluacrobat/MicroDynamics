@@ -12,6 +12,8 @@ git clone https://github.com/liluacrobat/MicroDynamics.git
 The following software is required
 * MATLAB
 
+Pleae add all the subforders of the MicroDynamics working directory to the path list of Matlab
+
 ## Input
 There are two input files for the MicroDynamics pipeline: an OTU table and a meta file of disease behavior. In the following example, a gut microbiom data set of Crohn's disease is used. 
 #### OTU table of 16S rRNA sequences
