@@ -91,15 +91,25 @@ cidx = script_consensus_clustering(Feature_Table, params)
 ```
 #### Optional arguments
 ```
-params        
-    -- cluster_num  
-         Number of clusters
-    -- iters        
-         Number of iterations
+params       
+     -- med          : Method used for clustering 
+                         options 
+                            km: k-means
+                            dmm: dirichlet multinomial mixtures
+                            cst: community state typing with partition around medoids
+     -- alpha        : Parameter for Dirichlet process prior
+     -- cluster_num  : Number of clusters (available when med=km)
+     -- iters        : Number of iterations for consensus clustering [default: 1000]
 ```
-The number of clusters can be estimated based on gap statistic.
+When k-means or community state typing (CST) with partition around medoids is used for clustering, the number of clusters can be automaticly determined using
 ```
-[cluster_num, eva_Gap] = script_kmeans_gap(Feature_Table)
+[cluster_num, eva_Gap] = script_gap_statistic(Feature_Table,med)
+ ```
+#### Optional argument med
+Specify the method used for clustering
+```
+'km': k-means
+'cst': community state typing with partition around medoids
 ```
 
 ### 4. Embedded structuring learning
