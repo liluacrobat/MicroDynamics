@@ -2,7 +2,7 @@ function Demo_MicroDynamics
 %% ========================================================================
 % A demo of exploring the microbial dynamics in a data set of Crohn's disease
 % Lu Li
-% update history: 08/10/2020
+% update history: 03/22/2022
 %% ========================================================================
 
 clc; clear; close all;
@@ -51,12 +51,12 @@ Feature_Table = script_feature_LOGO(Table_otu, Table_clinic, para4LOGO);
 
 %% 3. Random sampling based consensus clustering
 % % Estimate the number of clusters based on gap statistics
-% [cluster_num, eva_Gap] = script_kmeans_gap(Feature_Table);
+% [cluster_num, eva_Gap] = script_gap_statistic(Feature_Table,'km');
 % axis([1.1 9.9 -0.024 0.02]);
 
 para4cluster.iters = 1000;
 para4cluster.cluster_num = 5;
-  
+para4cluster.med = 'km';
 cidx = script_consensus_clustering(Feature_Table, para4cluster);
 
 % reorder the cluster labels
