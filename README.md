@@ -1,5 +1,5 @@
 # MicroDynamics
-A bioinformatics pipeline for studying microbial community dynamics associated with disease progression
+A bioinformatics pipeline for studying microbial community landscape along chronic human disease progression path
 
 ## Setup
 The setup process for the pipeline requires the following steps:
