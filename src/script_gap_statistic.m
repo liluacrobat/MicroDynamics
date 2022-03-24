@@ -32,7 +32,7 @@ switch med
     case 'km'
         [cluster_num, eva_Gap] = gapKmeans(X);
     case 'cst'
-        [cluster_num, eva_Gap] = gapKmedoids(Data);
+        [cluster_num, eva_Gap] = gapKmedoids(X);
 end
 % Plot Gap results
 plotGap(cluster_num, eva_Gap);
@@ -104,8 +104,7 @@ function [numClusters, eva_Gap] = gapKmedoids(Data)
 %% ======================================%
 % List of options and parameters
 %======================================%
-% @@ Options @@
-para.clusterAlg = 'Kmeans'; % use consensus clustering
+
 % @@ Parameters @@
 para.fs_threshold = 1e-2;
 para.CLUSTER_NUM_CHOICES = 1:10; % Candidate numbers of clusters
@@ -124,7 +123,7 @@ rng(25);
 myfunc = @(X,K)(kmedoids(X, K));
 
 tic;
-eva_Gap = evalclusters(DATA,kmedoids,'gap','KList',para.CLUSTER_NUM_CHOICES, ...
+eva_Gap = evalclusters(transpose(DATA),myfunc,'gap','KList',para.CLUSTER_NUM_CHOICES, ...
     'SearchMethod', 'firstMaxSE', 'ReferenceDistribution','PCA', 'B',100); %%PCA
 
 toc;

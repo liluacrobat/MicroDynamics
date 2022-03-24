@@ -45,7 +45,7 @@ end
 
 function [consensus,opt] = ConsensusClustering(X,params)
 opt = [];
-if isfield(params,iters)
+if isfield(params,'iters')
     iter = params.iters;
 else
     iter = 1000;
@@ -79,7 +79,7 @@ for i=1:iter
             [cidxi, ~, ~, ~] = mixGaussGb(Xi',para4dp);
             nc(i) = max(cidxi);
         case 'cst'
-            cidxi = kmedoids(Xi', K);
+            cidxi = kmedoids(Xi, K);
     end
     
     temp = zeros(ms);

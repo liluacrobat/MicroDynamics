@@ -1,6 +1,5 @@
 close all; clear;
-rng default
-d = 2;
+d = 50;
 k = 3;
 n = 500;
 
@@ -9,9 +8,6 @@ n = 500;
 [mapped_data,~,power]=compute_mapping(X','PCA',2);
 
 y = kmedoids(X',k);
-% plotClass(X,label);
-figure;
 plotClass(mapped_data',label);
 figure;
 plotClass(mapped_data',y);
-1
