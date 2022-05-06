@@ -94,8 +94,8 @@ Table_otu.count = Table_otu.count(idx_OTU,:);
 % Calculate relative abundance and apply 10-base log transformation
 [D, N] = size(Table_otu.count);
 Table_otu.rel = Table_otu.count./repmat(counts_per_sample, D, 1);
-if para.CLR==0
-    Table_otu.logRel = log10(Table_otu.rel+10^(-6));
+if params.CLR==0
+    Table_otu.logRel = log10(Table_otu.rel+params.pseudo_count);
 else
     Table_otu.logRel = CalCLR(Table_otu.rel);
 end
