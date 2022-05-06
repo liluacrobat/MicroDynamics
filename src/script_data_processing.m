@@ -25,6 +25,9 @@ function [Table_otu, Table_clinic] = script_data_processing(filen_otu, file_meta
 %            selection
 %       -- mapping
 %            Mapping from class categories to numerical labels
+%       -- CLR
+%            Use CLR instead of log10 transformed relative abundance for
+%            modeling if set as 1 [default: 0]
 %--------------------------------------------------------------------------
 % Output
 %   Table_otu : OTU table
@@ -54,6 +57,9 @@ else
     end
     if ~isfield(params, 'last_tax')
         params.last_tax = 0;
+    end
+    if ~isfield(params, 'CLR')
+        params.CLR = 0;
     end
 end
 
@@ -88,8 +94,11 @@ Table_otu.count = Table_otu.count(idx_OTU,:);
 % Calculate relative abundance and apply 10-base log transformation
 [D, N] = size(Table_otu.count);
 Table_otu.rel = Table_otu.count./repmat(counts_per_sample, D, 1);
-
-Table_otu.logRel = log10(Table_otu.rel+10^(-6));
+if para.CLR==0
+    Table_otu.logRel = log10(Table_otu.rel+10^(-6));
+else
+    Table_otu.logRel = CalCLR(Table_otu.rel);
+end
 
 Table_clinic = Table_clinic_raw(idx_sample,:);
 label_category = table2cell(Table_clinic(:, params.col_label));
@@ -104,4 +113,16 @@ for i=1:N
     end
 end
 Table_clinic.label = label;
+end
+function R1=CalCLR(X)
+R1=X;
+XX = X(:);
+if min(XX)==0
+    X = min(XX(XX~=0))/2+X;
+end
+for i=1:size(X,2)
+    temp=X(:,i);
+    m = geomean(temp);
+    R1(:,i)=log(temp)-log(m);
+end
 end
