@@ -54,6 +54,9 @@ params
          selection
     -- mapping
          Mapping from class categories to numerical labels
+    -- CLR
+         Use CLR instead of log10 transformed relative abundance for
+         modeling if set as 1 [default: 0]
 ```
 
 ### 2. Identifying disease associated OTUs
